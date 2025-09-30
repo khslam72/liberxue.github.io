@@ -1,32 +1,33 @@
 # ----------- CONFIGURABLE START -----------
-title:            "K-Contents Hub"
-description:      "K-Contents Hub shares K-POP MV analysis, lyrics, and Korean culture in English for global fans."
-url:              "https://khslam72.github.io"   # GitHub Pages 기본 주소
-baseurl:          "/liberxue.github.io"
-signoff:          "K-Contents Hub"
-facebook_appid:   
-google_analytics: 
-share:            true 
+title: "K-Contents Hub"
+description: "K-Contents Hub shares K-POP MV analysis, lyrics, and Korean culture in English for global fans."
+url: "https://khslam72.github.io"
+baseurl: "/liberxue.github.io"
+signoff: "K-Contents Hub"
+facebook_appid:
+google_analytics:
+share: true
 
 # Pagination
 paginate: 10
 paginate_path: "page:num"
-gems: [jekyll-paginate]
+gems:
+  - jekyll-paginate
 
 # 메뉴 링크
 links:
-  - name:         Home
-    url:          /
-    external:     false
-  - name:         Archive
-    url:          /archives
-    external:     false
-  - name:         Tags
-    url:          /tags
-    external:     false
-  - name:         About
-    url:          /about
-    external:     false
+  - name: Home
+    url: /
+    external: false
+  - name: Archive
+    url: /archives
+    external: false
+  - name: Tags
+    url: /tags
+    external: false
+  - name: About
+    url: /about
+    external: false
 # ------------ CONFIGURABLE END ------------
 
 # permalink 구조 (연도/월/제목 기반)
@@ -34,4 +35,4 @@ permalink: /:year/:month/:day/:title.html
 
 defaults:
   - values:
-      layout: "default"
+      layout: "default
