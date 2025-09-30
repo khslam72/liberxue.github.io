@@ -4,8 +4,8 @@ description: "K-Contents Hub shares K-POP MV analysis, lyrics, and Korean cultur
 url: "https://khslam72.github.io"
 baseurl: "/liberxue.github.io"
 signoff: "K-Contents Hub"
-facebook_appid:
-google_analytics:
+facebook_appid: ""   # 값 없으면 따옴표로 비워두기
+google_analytics: "" # 값 없으면 따옴표로 비워두기
 share: true
 
 # Pagination
@@ -35,4 +35,4 @@ permalink: /:year/:month/:day/:title.html
 
 defaults:
   - values:
-      layout: "default
+      layout: "default"
